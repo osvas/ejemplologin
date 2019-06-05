@@ -5,9 +5,9 @@ import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.runner.RunWith;
 
-import co.com.bancolombia.certification.sve.util.customrunner.RunnerPersonalizado;
-import co.com.bancolombia.certification.sve.util.exceldata.BeforeSuite;
-import co.com.bancolombia.certification.sve.util.exceldata.DataToFeature;
+import co.com.bancolombia.sve.util.customrunner.RunnerPersonalizado;
+import co.com.bancolombia.sve.util.exceldata.BeforeSuite;
+import co.com.bancolombia.sve.util.exceldata.DataToFeature;
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 

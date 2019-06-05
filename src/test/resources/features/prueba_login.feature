@@ -8,8 +8,9 @@ Feature: Title of your feature
       | <idCaso> | <rutaLogCanal> | <nombreLogCanal> | <nombreLogSTI> | <rutaLogSTI> | <nombreLogSTI> | <orientacion> | <codigoTransaccion> | <codigoError> | <resultadoEsperado> | <codigoCanal> | <codigoSistema> | <tipoTransaccion> |
     When I authenticate in SVE with nit and user and password
       | <nit> | <username> | <password> | <tipoDocumento> | <primeraPregunta> | <validarClave> |
+      Then I test the menu
 
     Examples: 
       | idCaso | TipoLogCanal | rutaLogCanal                                          | nombreLogCanal        | rutaLogSTI | nombreLogSTI | nit       | username  | password | tipoDocumento | primeraPregunta | orientacion | codigoTransaccion | codigoError | resultadoEsperado                                    | codigoCanal | codigoSistema | tipoTransaccion | validarClave |
       ##@externaldata@./src/test/resources/datadriven/SVE_TRN0385_Autenticacion.xlsx@Datos@1
-   |1   |WWW   |./src/test/resources/logs/canal/TRN0385_LogCanal.xlsx   |TRN0385_LogCanal.xlsx   |rutalogsti   |nombrelogsti   |800270811   |autouser1994   |12345678   |3   |bole   |Acierto   |0385   |000   |Estado de Transacciones - Aprobación - Preparación   |SVE   |BOLE   |Autenticacion   |ACTIVO |
+   |1   |WWW   |./src/test/resources/logs/canal/TRN0385_LogCanal.xlsx   |TRN0385_LogCanal.xlsx   |rutalogsti   |nombrelogsti   |800270811   |autouser1994   |qqqqqqqq   |3   |bole   |Acierto   |0385   |000   |Estado de Transacciones - Aprobación - Preparación   |SVE   |BOLE   |Autenticacion   |ACTIVO |
